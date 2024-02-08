@@ -10,18 +10,23 @@ int main()
     int total;
     int avg;
     
-    printf("Enter marks of M1 : ");
+    printf("Enter marks of subject 1 : ");
     scanf("%d",&m1);
-    printf("Enter marks of M2 : ");
+    printf("Enter marks of subject 2 : ");
     scanf("%d",&m2);
-    printf("Enter marks of M3 : ");
+    printf("Enter marks of subject 3 : ");
     scanf("%d",&m3);
-    printf("Enter marks of M4 : ");
+    printf("Enter marks of subject 4 : ");
     scanf("%d",&m4);
-    printf("Enter marks of M5 : ");
+    printf("Enter marks of subject 5 : ");
     scanf("%d",&m5);
+    printf("\n");
 
     total=m1+m2+m3+m4+m5;
+
+    printf("Total Marks : %d",total);
+    printf("\n");
+
     avg=total/5;
 
     printf("The average of 5 Subjects is : %d\n",avg); 
